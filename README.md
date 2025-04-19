@@ -1,6 +1,6 @@
 # Dotfiles para macOS
 
-Configuración personalizada de entorno de desarrollo para macOS. Este repositorio contiene los archivos de configuración (dotfiles) y un script de instalación automatizado para configurar rápidamente un nuevo entorno de desarrollo en macOS.
+Configuración personalizada de entorno de desarrollo para macOS. Configuración (dotfiles) y un script de instalación automatizado para configurar rápidamente un nuevo entorno de desarrollo en macOS.
 
 ## 🚀 Características
 
@@ -27,7 +27,7 @@ Configuración personalizada de entorno de desarrollo para macOS. Este repositor
 1. Clona este repositorio en tu directorio home:
 
 ```bash
-git clone https://github.com/gndx/dotfiles.git ~/dotfiles
+git clone https://github.com/gndx/dotfiles-template.git ~/dotfiles
 ```
 
 2. Ejecuta el script de instalación:
@@ -43,8 +43,6 @@ chmod +x install.sh
 ### Directorios creados
 
 - `~/develop` - Directorio principal de desarrollo
-- `~/develop/gndx` - Proyectos personales
-- `~/develop/platzi` - Proyectos relacionados con Platzi
 
 ### Aplicaciones instaladas (via Homebrew)
 
@@ -68,7 +66,7 @@ Algunos aliases útiles incluidos:
 
 - `develop` - Navega al directorio de desarrollo
 - `zshrc` - Abre .zshrc en VSCode
-- `dev`, `gndx`, `platzi` - Navegación rápida a directorios de desarrollo
+- `dev` - Navegación rápida a directorios de desarrollo
 - `commit` - Muestra estado y prepara un commit con GitMoji
 - Varios aliases para trabajo con Git
 
